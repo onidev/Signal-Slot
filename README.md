@@ -1,4 +1,4 @@
-# Signal-Slot
+# Signal Slot
 Signal Slot C++ Pattern
 
 ```c++
