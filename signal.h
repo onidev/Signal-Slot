@@ -2,6 +2,7 @@
 #define ONIDEV_CORE_SIGNAL_H_INCLUDED
 
 #include <functional>
+#include <utility>
 #include "signal.incl"
 
 namespace od
