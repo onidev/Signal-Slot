@@ -33,10 +33,10 @@ public:
     {
         _slot = Slot();
     }
-    void emit(Args... p)
+    void emit(Args&&... args)
     {
         if(_slot)
-            _slot(p...);
+            _slot(std::forward<Args>(args)...);
     }
     Signal& operator=(Signal const& other)
     {
