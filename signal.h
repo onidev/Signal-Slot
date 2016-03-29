@@ -34,7 +34,8 @@ public:
     {
         _slot = Slot();
     }
-    void emit(Args&&... args)
+    template <typename... Params>
+    void emit(Params&&... args)
     {
         if(_slot)
             _slot(std::forward<Args>(args)...);
