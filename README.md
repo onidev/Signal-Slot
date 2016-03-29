@@ -1,5 +1,5 @@
 # Signal Slot
-Signal Slot C++ Pattern
+Signal Slot C++11 Pattern
 
 ```c++
 od::Signal<std::string> signal;
